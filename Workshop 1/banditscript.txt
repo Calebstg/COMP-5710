@@ -1,0 +1,28 @@
+[main]  INFO    profile include tests: None
+[main]  INFO    profile exclude tests: None
+[main]  INFO    cli include tests: None
+[main]  INFO    cli exclude tests: None
+[main]  INFO    running on Python 3.11.1
+[node_visitor]  WARNING Unable to find qualified name for module: Calculator.py
+Run started:2023-02-2 13:25:14.993569
+
+Test results:
+        No issues identified.
+
+Code scanned:
+        Total lines of code: 17
+        Total lines skipped (#nosec): 0
+
+Run metrics:
+        Total issues (by severity):
+                Undefined: 0
+                Low: 0
+                Medium: 0
+                High: 0
+        Total issues (by confidence):
+                Undefined: 0
+                Low: 0
+                Medium: 0
+                High: 0
+Files skipped (1):
+        python (No such file or directory)

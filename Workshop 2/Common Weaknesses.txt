@@ -1,0 +1,4 @@
+The 3 most frequent security weaknessess that were detected were:
+B101:assert_used
+B311:blacklist
+B403:blacklist

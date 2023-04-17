@@ -1,0 +1,17 @@
+Workshop 6
+Caleb St.Germain
+COMP 5710
+03/12/2023
+
+Three Most Frequent Security Misconfigurations:
+1. NO_NETWORK_POLICY
+   Found: 53 Times
+   Description: The misconfiguration category that is related with not specifying network policies. Without specifying network policies Kubernetes installations are susceptible to unauthorized accesses.
+
+2. NO_ROLLING_UPDATE
+   Found: 18 Times
+   Description: The misconfiguration category that is related with not explicitly specifying RollingUpdate in the configuration file. A lack of rolling updates makes a Kubernetes installation susceptible to supply chain related attacks.
+
+3. INSECURE_HTTP
+   Found: 13 Times
+   Description: The category of using HTTP without SSL/TLS certificates to setup URLs or transmit traffic inside and outside the Kubernetes clusters. Without SSL/TLS certificates, the data transmitted across Kubernetes objects are susceptible to man-in-the-middle (MITM) attacks.
